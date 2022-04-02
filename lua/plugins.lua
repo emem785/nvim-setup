@@ -1,14 +1,18 @@
 
 require('packer').startup(
 function()
-
+use 'wbthomason/packer.nvim'
 use 'preservim/NERDTree'
 use 'lifepillar/vim-solarized8'
 use 'SirVer/ultisnips'
+use  'kyazdani42/nvim-web-devicons' 
 use 'vim-scripts/ReplaceWithRegister'
 use 'natebosch/dartlang-snippets'
 use 'honza/vim-snippets'
+use 'tpope/vim-fugitive' 
 use 'tpope/vim-surround'
+use 'neovim/nvim-lspconfig'
+use 'puremourning/vimspector'
 use { 'terrortylor/nvim-comment' , config = require('setup.nvim-comment')}
 use 'nvim-telescope/telescope.nvim'
 use ({'mhartington/formatter.nvim', config = require("setup.formatter")})

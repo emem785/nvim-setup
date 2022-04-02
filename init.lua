@@ -8,4 +8,6 @@ UltiSnipsExpandTrigger="<tab>"
 
 vim.api.nvim_command [[colorscheme solarized8]]
 
+NERDTreeMapOpenInTab='<ENTER>'
+
 
